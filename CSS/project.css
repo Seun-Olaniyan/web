@@ -1,0 +1,394 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-image: url(../img/90\ Simple\ Backgrounds\ [Edit\ and\ Download].jpeg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 75px;
+    width: 75px;
+    margin-top: 15px;
+    background-image: url(../img/pic.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar {
+    text-align: center;
+    padding: 1em;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-right: 100px;
+    padding: 18px 20px;
+}
+
+.navbar ul li:hover {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.navbar a {
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: gold;
+}
+
+.peak {
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium',
+        'Arial Narrow', Arial, sans-serif;
+    color: blue;
+    margin-top: 50px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.g {
+    width: 90%;
+    margin: auto;
+}
+
+.rightbox {
+    background-image: url(../img/pic2.png);
+    width: 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: mydiv 1s;
+    /* animation-iteration-count: ;
+    opacity: 0; */
+}
+
+/* @keyframes mydiv {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+} */
+.p1 {
+    font-size: 50px;
+    font-family: sans-serif;
+    color: #012970;
+}
+
+.p2 {
+    font-size: 50px;
+    font-family: sans-serif;
+    margin-top: -35px;
+    color: #012970;
+}
+
+.p3 {
+    font-size: 25px;
+    margin-top: -20px;
+    color: #444444;
+}
+
+.b {
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: #4154f1;
+    color: white;
+    border-radius: 7px;
+    border: white;
+}
+.b:hover { 
+    box-shadow: 10px 10px 5px gray;
+    transform: translate(15px);
+    transition: 1s;
+}
+
+.phones {
+    display: flex;
+    margin-top: 200px;
+}
+
+.leftphone {
+    height: 450px;
+    width: 650px;
+    background-image: url(../img/Group\ of\ professional\ asian\ business\ meeting\ and\ discussing\ stra.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rightphone {
+    height: 400px;
+    width: 650px;
+    margin-top: 35px;
+    margin-left: 50px;
+    background-color: #f6f9ff;
+}
+
+.rw {
+    width: 550px;
+    margin: auto;
+}
+
+.who {
+    color: #4154f1;
+    margin-top: 25px;
+    font-family: sans-serif;
+}
+
+.rw h2 {
+    font-family: sans-serif;
+    color: #012970;
+}
+
+.rl {
+    font-size: large;
+    font-family: sans-serif;
+}
+
+.r {
+    padding: 15px 40px;
+    font-size: 15px;
+    background-color: #4154f1;
+    color: white;
+    border-radius: 7px;
+    font-family: sans-serif;
+
+}
+
+.r:hover {
+    box-shadow: 10px 10px 5px gray;
+    transform: translate(15px);
+    transition: 1s;
+}
+
+.our {
+    text-align: center;
+    margin-top: 80px;
+    color: #4154f1;
+    font-family: sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+    color: #012970;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.contain {
+    display: flex;
+    justify-content: space-around;
+}
+
+.rub {
+    height: 400px;
+    width: 430px;
+    background-image: url(../img/pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.rub:hover {
+    transform: scale(.9);
+    transition: 1s;
+}
+
+.yee {
+    height: 400px;
+    width: 430px;
+    background-image: url(../img/pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.yee:hover {
+    transform: scale(.9);
+    transition: 1s;
+}
+
+.gee {
+    height: 400px;
+    width: 430px;
+    background-image: url(../img/pic.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gee:hover {
+    transform: scale(.9);
+    transition: 1s;
+}
+
+.rub1 {
+    width: 350px;
+    margin: auto;
+    margin-top: 270px;
+}
+
+.rub1 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #012970;
+}
+
+.rub1 p {
+    font-family: sans-serif;
+}
+
+.yee1 {
+    width: 350px;
+    margin: auto;
+    margin-top: 270px;
+}
+
+.yee1 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #012970;
+}
+
+.yee p {
+    font-family: sans-serif;
+}
+
+.gee1 {
+    width: 350px;
+    margin: auto;
+    margin-top: 270px;
+}
+
+.gee1 h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #012970;
+}
+
+.gee p {
+    font-family: sans-serif;
+}
+
+.no4 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+}
+
+.kil {
+    border: 1px solid black;
+    height: 130px;
+    width: 300px;
+}
+
+.kil h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #012970;
+    font-size: 30px;
+}
+
+.kil p {
+    text-align: center;
+}
+
+.gil {
+    border: 1px solid black;
+    height: 130px;
+    width: 300px;
+}
+
+.gil h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #012970;
+    font-size: 30px;
+}
+
+.gil p {
+    text-align: center;
+}
+
+.nil {
+    border: 1px solid black;
+    height: 130px;
+    width: 300px;
+}
+
+.nil h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #012970;
+    font-size: 30px;
+}
+
+.nil p {
+    text-align: center;
+}
+
+.bil {
+    border: 1px solid black;
+    height: 130px;
+    width: 300px;
+}
+
+.bil h2 {
+    text-align: center;
+    font-family: sans-serif;
+    color: #012970;
+    font-size: 30px;
+}
+
+.bil p {
+    text-align: center;
+}
+.okay{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.rokay{
+    border: 1px solid black;
+    height: 500px;
+    width: 50%;
+}
+.rk{
+    width: 90%;
+    margin: auto;
+}
+.rk h2{
+    font-size: 30px;
+    font-family: sans-serif;
+    color: #012970;
+}
+.or{
+    font-family: sans-serif;
+    font-size: 18px;
+}
+.lokay{
+    border: 1px solid black;
+    height: 500px;
+    width: 50%;
+    background-image: url(../img/pic.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
